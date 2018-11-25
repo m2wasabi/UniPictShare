@@ -11,7 +11,10 @@ Take screen shot, and easy share for mobile.
 ### 1. import libralies
 
 + Import AWS S3 SDK
+    + http://sdk-for-net.amazonwebservices.com/latest/aws-sdk-unity.zip
+    + Use AWSSDK.S3.3.3.27.1.unitypackage only
 + Import UniRx
+    + https://github.com/neuecc/UniRx/releases
 
 ### 2. Create AWS S3 bucket
 
@@ -74,8 +77,6 @@ IAMポリシーの追加を行う。名前は任意でよい。
 #### Cognete ロールへのポリシー追加
 
 IAMロールの変更から `Cognito_【Cognete ID プール名】Unauth_Role` の編集を行い、先ほどのポリシーをアタッチする。
-
-
 
 ### 4. Configure Unity project
 
